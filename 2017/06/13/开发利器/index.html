@@ -3,27 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>H5单页面最佳实践 | winfred</title>
+  <title>开发利器 | winfred</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="滑屏
-第三方插件FullPage（地址：https://github.com/powy1993/fullpage ）
-使用方式
- 123456789101112131415161718runPage = new FullPage(&amp;#123;    id: &amp;apos;pageContain&amp;apos;, // id of contain    slideTime: 800, // time of">
+  <meta name="description" content="文件查找Listary官方地址：http://www.listary.com/Listary 是一款实用的搜索工具, 也可以把它当做启动器来用非常方便。
+资料查阅Zeal官方地址：https://zealdocs.org/离线API文档工具，在zeal中可以快速的查找一些语言的函数和模块名称，像图中这样子的，具体的使用可以参考官网的说明，目前主流的框架和语言都有支持。
+GUI可视化GitKrake">
 <meta property="og:type" content="article">
-<meta property="og:title" content="H5单页面最佳实践">
-<meta property="og:url" content="http://yoursite.com/2016/06/03/H5单页面最佳实践/index.html">
+<meta property="og:title" content="开发利器">
+<meta property="og:url" content="http://yoursite.com/2017/06/13/开发利器/index.html">
 <meta property="og:site_name" content="winfred">
-<meta property="og:description" content="滑屏
-第三方插件FullPage（地址：https://github.com/powy1993/fullpage ）
-使用方式
- 123456789101112131415161718runPage = new FullPage(&amp;#123;    id: &amp;apos;pageContain&amp;apos;, // id of contain    slideTime: 800, // time of">
-<meta property="og:updated_time" content="2016-08-03T08:29:20.120Z">
+<meta property="og:description" content="文件查找Listary官方地址：http://www.listary.com/Listary 是一款实用的搜索工具, 也可以把它当做启动器来用非常方便。
+资料查阅Zeal官方地址：https://zealdocs.org/离线API文档工具，在zeal中可以快速的查找一些语言的函数和模块名称，像图中这样子的，具体的使用可以参考官网的说明，目前主流的框架和语言都有支持。
+GUI可视化GitKrake">
+<meta property="og:updated_time" content="2017-06-13T06:51:14.288Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="H5单页面最佳实践">
-<meta name="twitter:description" content="滑屏
-第三方插件FullPage（地址：https://github.com/powy1993/fullpage ）
-使用方式
- 123456789101112131415161718runPage = new FullPage(&amp;#123;    id: &amp;apos;pageContain&amp;apos;, // id of contain    slideTime: 800, // time of">
+<meta name="twitter:title" content="开发利器">
+<meta name="twitter:description" content="文件查找Listary官方地址：http://www.listary.com/Listary 是一款实用的搜索工具, 也可以把它当做启动器来用非常方便。
+资料查阅Zeal官方地址：https://zealdocs.org/离线API文档工具，在zeal中可以快速的查找一些语言的函数和模块名称，像图中这样子的，具体的使用可以参考官网的说明，目前主流的框架和语言都有支持。
+GUI可视化GitKrake">
   
     <link rel="alternate" href="/atom.xml" title="winfred" type="application/atom+xml">
   
@@ -72,10 +69,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-H5单页面最佳实践" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-开发利器" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/06/03/H5单页面最佳实践/" class="article-date">
-  <time datetime="2016-06-03T00:33:55.000Z" itemprop="datePublished">2016-06-03</time>
+    <a href="/2017/06/13/开发利器/" class="article-date">
+  <time datetime="2017-06-13T06:47:40.000Z" itemprop="datePublished">2017-06-13</time>
 </a>
     
   </div>
@@ -86,7 +83,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      H5单页面最佳实践
+      开发利器
     </h1>
   
 
@@ -94,26 +91,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="滑屏"><a href="#滑屏" class="headerlink" title="滑屏"></a>滑屏</h2><ol>
-<li>第三方插件FullPage（地址：<a href="https://github.com/powy1993/fullpage" target="_blank" rel="external">https://github.com/powy1993/fullpage</a> ）</li>
-<li><p>使用方式</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">runPage = new FullPage(&#123;</span><br><span class="line">    id: &apos;pageContain&apos;, // id of contain</span><br><span class="line">    slideTime: 800, // time of slide</span><br><span class="line">    continuous: true, // create an infinite feel with no endpoints</span><br><span class="line">    effect: &#123; // slide effect</span><br><span class="line">        transform: &#123;</span><br><span class="line">            translate: &apos;Y&apos;, // &apos;X&apos;|&apos;Y&apos;|&apos;XY&apos;|&apos;none&apos;</span><br><span class="line">            scale: [1, 1], // [scalefrom, scaleto]</span><br><span class="line">            rotate: [0, 0] // [rotatefrom, rotateto]</span><br><span class="line">        &#125;,</span><br><span class="line">        opacity: [0, 1] // [opacityfrom, opacityto]</span><br><span class="line">    &#125;,</span><br><span class="line">    mode: &apos;wheel,touch&apos;, // mode of fullpage</span><br><span class="line">    easing: &apos;ease&apos;, // easing(&apos;ease&apos;,&apos;ease-in&apos;,&apos;ease-in-out&apos; or use cubic-bezier like [.33, 1.81, 1, 1] )</span><br><span class="line">    callback: function(index, thisPage) &#123;</span><br><span class="line">        $(document).scrollTop(0);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>缺陷：  </p>
-<ul>
-<li>火狐浏览器无法滑屏（可以选择其它兼容滑屏事件，禁掉插件源码滑屏方法，然后调用fullpage中prev及next方法）</li>
-</ul>
-</li>
-</ol>
-<h2 id="适配"><a href="#适配" class="headerlink" title="适配"></a>适配</h2><ol>
-<li>第三方插件pageResponse（地址：<a href="http://peunzhang.cnblogs.com" target="_blank" rel="external">http://peunzhang.cnblogs.com</a> ）</li>
-<li>使用方式<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">window.onload = window.onresize = function() &#123;</span><br><span class="line">     pageResponse(&#123;</span><br><span class="line">         selectors: &apos;.content1,.content2,.content3,.content4,.content5,.content6,.content7,.content8,.content9,.content10&apos;, //模块选择器，使用querySelectorAll的方法</span><br><span class="line">         mode: &apos;contain&apos;, // auto || contain || cover ，默认模式为auto </span><br><span class="line">         width: &apos;320&apos;, //输入页面的宽度，只支持输入数值，默认宽度为320px</span><br><span class="line">         height: &apos;480&apos; //输入页面的高度，只支持输入数值，默认高度为504px</span><br><span class="line">     &#125;);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>3.注意（可将背景铺满page实现背景无缝铺满，内容适配）</p>
-<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ol>
-<li>ios下点击延迟300ms（推荐插件hammer及fastclick）</li>
-</ol>
+        <h2 id="文件查找"><a href="#文件查找" class="headerlink" title="文件查找"></a>文件查找</h2><h3 id="Listary"><a href="#Listary" class="headerlink" title="Listary"></a>Listary</h3><p><a href="http://www.listary.com/" target="_blank" rel="external">官方地址：http://www.listary.com/</a><br>Listary 是一款实用的搜索工具, 也可以把它当做启动器来用非常方便。</p>
+<h2 id="资料查阅"><a href="#资料查阅" class="headerlink" title="资料查阅"></a>资料查阅</h2><h3 id="Zeal"><a href="#Zeal" class="headerlink" title="Zeal"></a>Zeal</h3><p><a href="https://zealdocs.org/" target="_blank" rel="external">官方地址：https://zealdocs.org/</a><br>离线API文档工具，在zeal中可以快速的查找一些语言的函数和模块名称，像图中这样子的，具体的使用可以参考官网的说明，目前主流的框架和语言都有支持。</p>
+<h2 id="GUI可视化"><a href="#GUI可视化" class="headerlink" title="GUI可视化"></a>GUI可视化</h2><h3 id="GitKraken"><a href="#GitKraken" class="headerlink" title="GitKraken"></a>GitKraken</h3><p><a href="https://www.gitkraken.com/" target="_blank" rel="external">官方地址：https://www.gitkraken.com/</a><br>比较好用的git可视化工具，一键取消，比较好的合并工具，支持git子项目。</p>
 
       
     </div>
@@ -154,27 +134,16 @@
         </script>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/H5/">H5</a></li></ul>
-
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2016/07/25/sublime常用插件/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          sublime常用插件
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/05/19/武咸城际时刻表/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2016/08/24/必须知道的十二大著名法则/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">武咸城际时刻表</div>
+      <div class="article-nav-title">必须知道的十二大著名法则</div>
     </a>
   
 </nav>
@@ -185,7 +154,7 @@
 
   <section id="comments">
     <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="post-H5单页面最佳实践" data-title="H5单页面最佳实践" data-url="http://yoursite.com/2016/06/03/H5单页面最佳实践/"></div>
+    <div class="ds-thread" data-thread-key="post-开发利器" data-title="开发利器" data-url="http://yoursite.com/2017/06/13/开发利器/"></div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
